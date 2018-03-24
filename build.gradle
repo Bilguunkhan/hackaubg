@@ -27,6 +27,7 @@ getProject().setBuildDir('gradleBuild')
 buildscript {
     repositories {
         jcenter()
+        google()
     }
 
     dependencies {
@@ -78,7 +79,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion '26.0.2'
+    buildToolsVersion '23.0.1'
 
     if (nativeBuildSystem == 'cmake') {
         defaultConfig {
@@ -196,6 +197,7 @@ apply from: "download-models.gradle"
 allprojects {
     repositories {
         jcenter()
+        google()
     }
 }
 

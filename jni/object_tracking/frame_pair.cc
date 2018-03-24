@@ -14,9 +14,14 @@ limitations under the License.
 ==============================================================================*/
 
 #include <float.h>
+#include <AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/cstdint>
+#include <AppData/Local/Android/sdk/ndk-bundle/sysroot/usr/include/string.h>
 
-#include "tensorflow/examples/android/jni/object_tracking/config.h"
-#include "tensorflow/examples/android/jni/object_tracking/frame_pair.h"
+#include "frame_pair.h"
+#include "config.h"
+#include "geom.h"
+#include "utils.h"
+#include "keypoint.h"
 
 namespace tf_tracking {
 

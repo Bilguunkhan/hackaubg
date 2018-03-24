@@ -13,7 +13,11 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "tensorflow/examples/android/jni/object_tracking/tracked_object.h"
+#include <AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/cstdint>
+#include "tracked_object.h"
+#include "image.h"
+#include "image_utils.h"
+#include "object_model.h"
 
 namespace tf_tracking {
 
